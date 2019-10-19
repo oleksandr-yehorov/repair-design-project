@@ -1,2 +1,14 @@
 @import "./blocks/header";
+@import "./blocks/main";
 
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #131313;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .white-body {
+    background-color: #FFFFFF;
+  }
