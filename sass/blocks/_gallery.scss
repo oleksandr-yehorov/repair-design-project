@@ -1,0 +1,15 @@
+.gallery__wrapper {
+  width: 1440px;
+  height: 1018px;
+  margin: 0 auto;
+  background-image: url('../assets/images/bg3.jpg');
+  background-repeat: no-repeat;
+  background-position-y: 110px;
+}
+
+@media (max-width: 1439px) {
+  .gallery__wrapper {
+    height: 375px;
+    width: 375px;
+  }
+}
