@@ -1,9 +1,9 @@
-.projects {
+.samples {
   margin-top: 110px;
   padding-bottom: 415px;
 }
 
-.projects__wrapper {
+.samples__wrapper {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@
   margin: 0 auto;
 }
 
-.projects__description {
+.samples__description {
   width: 594px;
   height: 180px;
   margin-top: 80px;
@@ -23,13 +23,13 @@
   text-align: left;
 }
 
-.projects__text {
+.samples__text {
   width: 430px;
   font-size: 18px;
   color: #FFFFFF;
 }
 
-.projects__title {
+.samples__title {
   width: 160px;
   font-size: 27px;
   color: #E3B873;
@@ -39,7 +39,7 @@
 }
 
 
-.projects__title::after {
+.samples__title::after {
   content: '';
   display: block;
   width: 92px;
@@ -50,7 +50,7 @@
   left: 180px;
 }
 
-.projects__slide-control {
+.samples__slide-control {
   display: flex;
   width: 210px;
   margin-top: -30px;
@@ -59,14 +59,14 @@
   justify-content: space-between;
 }
 
-.projects__arrow {
+.samples__arrow {
   width: 40px;
   height: 2px;
   background-color: #FFFFFF;
   cursor: pointer;
 }
 
-.projects__arrow::before, .projects__arrow::after {
+.samples__arrow::before, .samples__arrow::after {
   position: relative;
   display: block;
   content: '';
@@ -76,29 +76,29 @@
   left: -2px;
 }
 
-.projects__arrow::before {
+.samples__arrow::before {
   top: 2px;
   transform: rotate(45deg);
 }
 
-.projects__arrow::after {
+.samples__arrow::after {
   top: -5px;
   transform: rotate(-45deg);
 }
 
-.projects__arrow--right::before, .projects__arrow--right::after {
+.samples__arrow--right::before, .samples__arrow--right::after {
   left: 33px;
 }
 
-.projects__arrow--right::before {
+.samples__arrow--right::before {
   top: -2px;
 }
 
-.projects__arrow--right::after {
+.samples__arrow--right::after {
   top: 0;
 }
 
-.projects__circle {
+.samples__circle {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -110,20 +110,20 @@
   }
 }
 
-.projects__slider {
+.samples__slider {
   width: 844px;
   height: 750px;
   order: 4;
 }
 
-.projects__navigation {
+.samples__navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 620px;
 }
 
-.projects__link {
+.samples__link {
   padding: 0;
   margin: 0;
   padding-bottom: 5px;
@@ -145,13 +145,13 @@
   }
 }
 
-.projects__slide-wrapper {
+.samples__slide-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.projects__slide {
+.samples__slide {
   width: 679px;
   height: 482px;
   background-image: url('../assets/images/slide1.jpg');
@@ -162,7 +162,7 @@
   }
 }
 
-.projects__next-btn {
+.samples__next-btn {
   width: 55px;
   height: 55px;
   padding: 0;
@@ -178,7 +178,7 @@
   }
 }
 
-.projects__next-btn::before, .projects__next-btn::after {
+.samples__next-btn::before, .samples__next-btn::after {
   position: relative;
   display: block;
   content: '';
@@ -187,19 +187,19 @@
   background-color: #FFFFFF;
 }
 
-.projects__next-btn::before {
+.samples__next-btn::before {
   transform: rotate(45deg);
   margin-left: 23px;
   top: -3px;
 }
 
-.projects__next-btn::after {
+.samples__next-btn::after {
   transform: rotate(-45deg);
   margin-left: 23px;
   top: 3px;
 }
 
-.projects__data {
+.samples__data {
   width: 370px;
   height: 220px;
   margin-left: 100px;
@@ -208,20 +208,20 @@
   flex-wrap: wrap;
 }
 
-.projects__block {
+.samples__block {
   width: 185px;
   height: 110px;
   text-align: left;
 }
 
-.projects__head {
+.samples__head {
   font-size: 18px;
   color: #E3B873;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.projects__description {
+.samples__descr {
   width: 100px;
   font-size: 15px;
   line-height: 20px;
@@ -230,26 +230,26 @@
 
 
 @media (max-width: 1439px) {
-  .projects__wrapper {
+  .samples__wrapper {
     height: 670px;
     width: 375px;
     flex-direction: column;
   }
 
-  .projects__description, .projects__slider, .projects__data {
+  .samples__description, .samples__slider, .samples__data {
     width: 367px;
   }
 
-  .projects__description {
+  .samples__description {
     height: 240px;
   }
 
-  .projects__slider {
+  .samples__slider {
     height: 240px;
     order: 2;
   }
 
-  .projects__data {
+  .samples__data {
     height: 174px;
     order: 3;
   }
