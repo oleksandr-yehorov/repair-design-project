@@ -1,0 +1,188 @@
+.testimonials {
+    height: 999px;
+    background: #fff;
+    padding: 0 7%;
+  
+    @media screen and (min-width: 426px) and (max-width: 1024px) {
+      height: 1530px;
+    }
+  
+    @media screen and (min-width: 426px) and (max-width: 700px) {
+      height: 1875px;
+    }
+  
+    @media screen and (max-width: 425px) {
+      display: none;
+    }
+  
+    .cards-wrapper {
+      @media screen and (min-width: 426px) and (max-width: 1024px) {
+        flex-direction: column;
+      }
+  
+      @media screen and (min-width: 426px) and (max-width: 700px) {
+        height: auto;
+      }
+    }
+  }
+  
+  .testimonials__title {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+    margin-bottom: 13px;
+  }
+  
+  .testimonials__logo {
+    position: relative;
+    height: 32px;
+    width: 32px;
+    margin: 0 auto 14px;
+  
+    &::before {
+      content: '';
+      position: absolute;
+      width: 32px;
+      border: 1px solid #e3b873;;
+      top: 11px;
+      right: 100%;
+      margin-right: 9px;
+    }
+  
+    &::after {
+      content: '';
+      position: absolute;
+      width: 32px;
+      border: 1px solid #e3b873;
+      top: 11px;
+      left: 100%;
+      margin-left: 9px;
+    }
+  }
+  
+  .testimonials__title-text {
+    width: 395px;
+    height: 57px;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'FuturaBookC', sans-serif;
+    text-align: center;
+    color: #363636;
+    margin: 0 auto 42px;
+  
+    @media screen and (min-width: 426px) and (max-width: 1024px) {
+      margin-bottom: 70px;
+    }
+  }
+  
+  .testimonials__card {
+    position: relative;
+    width: 30%;
+    height: 455px;
+  
+    @media screen and (min-width: 1023px) and (max-width: 1150px) {
+      height: 504px;
+    }
+  
+    @media screen and (min-width: 426px) and (max-width: 1024px) {
+      width: 100%;
+      height: 320px;
+      margin-bottom: 40px;
+    }
+  
+    @media screen and (min-width: 426px) and (max-width: 700px) {
+      height: 433px;
+    }
+  
+    .card__content {
+      height: 404px;
+      padding: 24px 31px 0 20px;
+      background: #fff;
+      box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+  
+      @media screen and (min-width: 1023px) and (max-width: 1150px) {
+        height: 444px;
+      }
+  
+      @media screen and (max-width: 1024px) {
+        height: auto;
+        padding: 24px 31px 14px 20px;
+      }
+  
+      @media screen and (min-width: 426px) and (max-width: 700px) {
+        height: 352px;
+      }
+    }
+  
+    .card__content-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 22px;
+  
+      .card__content-image {
+        height: 76px;
+        width: 76px;
+        border-radius: 50%;
+        margin-right: 23px;
+      }
+  
+      .card__content-title {
+        font-size: 18px;
+        line-height: 23px;
+        width: 178px;
+        font-family: 'Yeseva One', cursive;
+        font-weight: 500;
+        color: #181818;
+      }
+    }
+  
+    .card__content-text {
+      font-size: 15px;
+      line-height: 27px;
+      font-family: 'FuturaBookC', sans-serif;
+      color: #959595;
+    }
+  
+    .card__footer {
+      width: 293px;
+      height: 54px;
+      display: flex;
+      background: #e3b873;
+      box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  
+      .card__footer-left {
+        display: flex;
+        align-items: center;
+        width: 118px;
+        padding: 11px 0 11px 17px;
+        border-right: 1px solid #fff;
+      }
+  
+      .card__footer-right {
+        display: flex;
+        align-items: center;
+        width: 141px;
+        padding: 11px 0 11px 17px;
+      }
+  
+      img {
+        margin-right: 15px;
+      }
+  
+      p {
+        font-size: 17px;
+        line-height: 24px;
+        font-family: 'Yeseva One', cursive;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }
+  }
