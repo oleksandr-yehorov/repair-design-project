@@ -10,18 +10,15 @@
 
 
 
-
-// @import './partials/bg';
-// @import './partials/fonts';
-// @import './partials/mixins';
-// @import './partials/buttons';
-// @import './partials/colors';
-
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1438px;
     background-color: #131313;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
