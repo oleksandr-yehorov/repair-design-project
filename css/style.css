@@ -1683,6 +1683,124 @@
   }
 }
 
+.footer {
+  height: 37px;
+  background: #131313;
+  padding: 48px 7% 48px 7%;
+}
+@media screen and (min-width: 426px) and (max-width: 1090px) {
+  .footer {
+    padding: 48px 2% 48px 2%;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .footer {
+    padding: 48px 2% 20px 2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .footer {
+    display: none;
+  }
+}
+.footer .footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer__title {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #e3b873;
+  font-family: "FuturaDemiC", sans-serif;
+}
+.footer .footer__navbar {
+  width: 47%;
+}
+@media screen and (max-width: 870px) {
+  .footer .footer__navbar {
+    width: 57%;
+  }
+}
+.footer .footer__navbar ul {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer .footer__navbar ul .footer__item {
+  list-style: none;
+}
+.footer .footer__navbar ul .footer__link {
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "FuturaBookC", sans-serif;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.footer .footer__navbar ul .footer__link--active {
+  color: #e3b873;
+  text-decoration: none;
+  font-family: "FuturaBookC", sans-serif;
+}
+.footer .footer__navbar ul .footer__link:hover {
+  color: #e3b873;
+}
+.footer .footer__tel {
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "FuturaBookC", sans-serif;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.footer .footer__tel:hover {
+  color: #e3b873;
+  text-decoration: underline;
+}
+.footer .footer__button {
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 2px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 13px 33px;
+  font-family: "FuturaDemiC", sans-serif;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.footer .footer__button:hover {
+  background-color: #e3b873;
+  border-color: #e3b873;
+}
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .footer .footer__button {
+    display: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
