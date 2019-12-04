@@ -492,6 +492,7 @@
 .features__field-input {
   margin-top: 5px;
   font-size: 18px;
+  outline: none;
 }
 
 .features__btn {

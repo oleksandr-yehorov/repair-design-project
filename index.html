@@ -110,17 +110,18 @@
             <div class="features__form">
               <div class="features__block">
                 <div class="features__field-title">Name</div>
-                <div class="features__field-input">What is your name:</div>
-              </div>
+                <input class="features__field-input" type="text" placeholder="What is your name:">                </div>
               <div class="features__block">
                 <div class="features__field-title">Phone</div>
-                <div class="features__field-input">Your phone number:</div>
+                <input class="features__field-input" type="text" placeholder="Your phone number:">
               </div>
-              <button class="features__btn">Submit</button>
+              <button class="features__btn" type="submit">Submit</button>
             </div>
             <div class="features__agreement">
-              <div class="features__checkbox"></div>
-              <div class="features__label">I agree to the processing of personal data</div>
+              <input id="agree" type="checkbox">
+              <label for="agree">
+                  I agree to the processing of personal data
+              </label>
             </div>
           </div>
         </section>
